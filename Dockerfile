@@ -1,4 +1,4 @@
-FROM oguzpastirmaci/ubuntu-node
+FROM node:4
 
 COPY . /src  
 RUN cd /src; npm install

@@ -11,6 +11,7 @@
     "gulp": "^3.9.0",
     "jade": "^1.11.0",
     "gulp-mocha": "^2.2.0",
+    "os" : "^0.1.1",
     "gulp-util": "^3.0.5"
   },
   "author": "Oguz Pastirmaci"

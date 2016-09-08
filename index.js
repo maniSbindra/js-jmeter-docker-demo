@@ -14,6 +14,14 @@ app.get('/', function (req, res) {
       res.render('index', {hostname: hostname});
 	});
 
+app.get('/concat', function (req, res) {
+      res.render('concat', {hostname: hostname});
+	});
+
+app.get('/arrJoin', function (req, res) {
+      res.render('arrjoin', {hostname: hostname});
+	});
+
 if(!module.parent){
 app.listen(PORT);
 }
